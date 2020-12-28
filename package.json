@@ -1,0 +1,27 @@
+{
+  "name": "aws-cva-stephane",
+  "version": "1.0.0",
+  "description": "Personal Notes for: Ultimate AWS Certified Developer Associate 2021",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Andrew4d3@github.com/Andrew4d3/aws-cva-stephane.git"
+  },
+  "keywords": [
+    "notes",
+    "aws-cva",
+    "udemy"
+  ],
+  "author": "Andrew4d3",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Andrew4d3/aws-cva-stephane/issues"
+  },
+  "homepage": "https://github.com/Andrew4d3/aws-cva-stephane#readme",
+  "dependencies": {
+    "markdown-to-anki": "^0.2.3"
+  }
+}
