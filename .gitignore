@@ -105,3 +105,6 @@ dist
 
 # Certs
 *.pem
+
+# Anki output
+*.txt

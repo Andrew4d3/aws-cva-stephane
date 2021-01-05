@@ -4,7 +4,9 @@
   "description": "Personal Notes for: Ultimate AWS Certified Developer Associate 2021",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "anki:sec1": "markdown-to-anki sections/section01.md > section01.txt",
+    "anki:sec3": "markdown-to-anki sections/section03.md > section03.txt"
   },
   "repository": {
     "type": "git",
