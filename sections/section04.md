@@ -62,3 +62,55 @@ What's the difference between Cross-Zone Load Balancing Enabled and Disabled?
 
 -  With Cross Zone Load Balancing: each load balancer instance distributes evenly across all registered instances in all AZ
 -  Otherwise, each load balancer node distributes requests evenly across the registered instances in its Availability Zone only.
+
+===
+
+How does SNI (Server Name Indication) work with SSL cert in your load balancers?
+
+---
+
+Both, ALB and NLB support SNI. So they can pick the correct SSL cert for each of your domain names assigned to the target groups. (It's not supported for CLB)
+
+![image](https://user-images.githubusercontent.com/1868409/103717604-aec04880-4fa4-11eb-9cae-ba914bc89af4.png)
+
+===
+
+In Load Balancers, what's "Connection Draining"?
+
+---
+
+It's the time to complete “in-flight requests” while the instance is de-registering or unhealthy
+
+![image](https://user-images.githubusercontent.com/1868409/103717619-b97add80-4fa4-11eb-9fe6-e77656c069be.png)
+
+===
+
+List of Scaling Policy types (4):
+
+---
+
+-  Target Tracking Scaling: most simple, based on average
+-  Simple Scaling: based on CloudWatch alarm. You set one single threshold.
+-  Step Scaling: similar to simple scaling, but you can set multiple thresholds in steps (20% - 30%, 30% - 40%, etc)
+-  Scheduled Actions: you annticipate a scaling based on known usage patterns. You set a specific number of instances you want for a specifc date and time.
+
+===
+
+In ASG, what are "Scaling Cooldowns"? (2)
+
+---
+
+-  The cooldown period helps to ensure that your Auto Scaling group doesn't launch or terminate additional instances before the previous scaling activity takes
+   effect.
+-  In addition to default cooldown for Auto Scaling group, we can create cooldowns that apply to a specific simple scaling policy
+
+![image](https://user-images.githubusercontent.com/1868409/103966795-5cfff580-513f-11eb-80fd-c13267c04797.png)
+
+===
+
+If your application is scaling up and down multiple times, what can you do?
+
+---
+
+modify the ASG cool-down timers and the CloudWatch Alarm Period that
+triggers the scale in
