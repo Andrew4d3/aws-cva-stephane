@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "anki:sec1": "markdown-to-anki sections/section01.md > section01.txt",
-    "anki:sec3": "markdown-to-anki sections/section03.md > section03.txt"
+    "anki:sec3": "markdown-to-anki sections/section03.md > section03.txt",
+    "anki:sec4": "markdown-to-anki sections/section04.md > section04.txt",
+    "anki:sec5": "markdown-to-anki sections/section04.md > section04.txt"
   },
   "repository": {
     "type": "git",
