@@ -108,3 +108,5 @@ dist
 
 # Anki output
 *.txt
+
+code/
