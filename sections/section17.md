@@ -52,8 +52,6 @@ Explain Artifacts in CodePipeline (2)
 
 ![image](https://user-images.githubusercontent.com/1868409/133934519-7c6635ad-2c60-46e8-92b6-717fc633118e.png)
 
-git clone https://andrew-at-045366617141:YnBBD9zFYY7ytD+RBT+GkeVf+Ie2M0/GO8W9LXP9TlY=@git-codecommit.us-east-1.amazonaws.com/v1/repos/my-first-aws-repo
-
 ===
 
 What file does AWS Codebuild use to define instructions to run?
