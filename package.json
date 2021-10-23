@@ -24,7 +24,8 @@
     "anki:sec15": "markdown-to-anki sections/section15.md > anki.txt",
     "anki:sec16": "markdown-to-anki sections/section16.md > anki.txt",
     "anki:sec17": "markdown-to-anki sections/section17.md > anki.txt",
-    "anki:sec18": "markdown-to-anki sections/section18.md > anki.txt"
+    "anki:sec18": "markdown-to-anki sections/section18.md > anki.txt",
+    "anki:sec19": "markdown-to-anki sections/section19.md > anki.txt"
   },
   "repository": {
     "type": "git",
