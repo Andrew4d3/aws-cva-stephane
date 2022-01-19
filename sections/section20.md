@@ -508,6 +508,8 @@ Kinesis Data Firehose is a fully managed service that can load (and optionally t
 
 List Kinesis Data Firehose destinations (AWS (3), 3rd party, custom (1))
 
+---
+
 -  AWS Destinations (mandatory to remember):
    -  S3
    -  Amazon Redshift
